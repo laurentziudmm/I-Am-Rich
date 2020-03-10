@@ -14,6 +14,7 @@ struct ContentView: View {
             .font(.body)
             .foregroundColor(Color.orange)
             .multilineTextAlignment(.leading)
+            .padding([.top, .leading, .bottom], 8.0)
             .frame(width: 144.0, height: 48.0)
     }
 }
