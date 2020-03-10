@@ -12,9 +12,10 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, World!")
             .font(.body)
+            .fontWeight(.regular)
             .foregroundColor(Color.orange)
             .multilineTextAlignment(.leading)
-            .padding([.top, .leading, .bottom], 8.0)
+            .padding(.all, 12.0)
             .frame(width: 144.0, height: 48.0)
     }
 }
